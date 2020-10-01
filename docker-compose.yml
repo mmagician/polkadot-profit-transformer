@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  blocks-tests:
+    image: autotests1:latest
+    build:
+      context: .
+      dockerfile: blocksTests/Dockerfile
+  ksqlTests:
+    image: autotests2:latest
+    build:
+      context: .
+      dockerfile: ksqlTests/Dockerfile
