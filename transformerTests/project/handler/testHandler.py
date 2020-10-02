@@ -1,6 +1,6 @@
 import subprocess
-from ksqlTests.project.jsonHelper import JsonHelper
-from ksqlTests.project.handler.baseTest import BaseTest
+from transformerTests.project.jsonHelper import JsonHelper
+from transformerTests.project.handler.baseTest import BaseTest
 
 
 class TestHandler(BaseTest):

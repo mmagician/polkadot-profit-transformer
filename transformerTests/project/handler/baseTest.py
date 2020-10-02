@@ -1,5 +1,5 @@
-import ksqlTests.project.utils as utils
-import ksqlTests.project.paths as paths
+import transformerTests.project.utils as utils
+import transformerTests.project.paths as paths
 
 
 class BaseTest:

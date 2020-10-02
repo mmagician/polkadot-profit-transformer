@@ -1,5 +1,5 @@
 import unittest
-from ksqlTests.project.handler.testHandler import TestHandler
+from transformerTests.project.handler.testHandler import TestHandler
 
 
 class TransformerBalancesTest(unittest.TestCase):

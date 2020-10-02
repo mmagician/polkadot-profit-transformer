@@ -1,11 +1,11 @@
 import unittest
 
-from ksqlTests.project.tests.polkadotTransformations.transformerExtrinsicsTest import TransformerExtrinsicsTest
-from ksqlTests.project.tests.polkadotTransformations.transformerProfitEventsFilterTest import \
+from transformerTests.project.tests.polkadotTransformations.transformerExtrinsicsTest import TransformerExtrinsicsTest
+from transformerTests.project.tests.polkadotTransformations.transformerProfitEventsFilterTest import \
     TransformerProfitEventsFilterTest
-from ksqlTests.project.tests.polkadotTransformations.transformerBlocksTest import TransformerBlocksTest
-from ksqlTests.project.tests.polkadotTransformations.transformerEventsTest import TransformerEventsTest
-from ksqlTests.project.tests.polkadotTransformations.transformerBalancesTest import TransformerBalancesTest
+from transformerTests.project.tests.polkadotTransformations.transformerBlocksTest import TransformerBlocksTest
+from transformerTests.project.tests.polkadotTransformations.transformerEventsTest import TransformerEventsTest
+from transformerTests.project.tests.polkadotTransformations.transformerBalancesTest import TransformerBalancesTest
 
 
 def suite():

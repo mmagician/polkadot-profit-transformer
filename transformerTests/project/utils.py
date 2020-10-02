@@ -1,4 +1,4 @@
-from ksqlTests.project.logger import init_logger
+from transformerTests.project.logger import init_logger
 from pathlib import Path
 
 

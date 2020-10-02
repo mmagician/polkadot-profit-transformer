@@ -5,9 +5,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-pip
 
 WORKDIR /polkadot-profit-transformer
-COPY ksqlTests ksqlTests
+COPY transformerTests transformerTests
 
-WORKDIR /polkadot-profit-transformer/ksqlTests
+WORKDIR /polkadot-profit-transformer/transformerTests
 RUN pip3 install -r requirements.txt
 RUN ls -al
 ENV DISPLAY=:99

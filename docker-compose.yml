@@ -2,11 +2,13 @@ version: '3.5'
 services:
   blocks-tests:
     image: autotests1:latest
+    container_name: blocks-tests
     build:
       context: .
       dockerfile: blocksTests/Dockerfile
-  ksqlTests:
+  transformerTests:
     image: autotests2:latest
+    container_name: transformerTests
     build:
       context: .
-      dockerfile: ksqlTests/Dockerfile
+      dockerfile: transformerTests/Dockerfile
